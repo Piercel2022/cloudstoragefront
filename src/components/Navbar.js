@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import { Transition } from "@headlessui/react";
 
-function Nav() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -16,40 +17,33 @@ function Nav() {
               </div>
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
-                  <a
-                    href="#"
+                  <Link
+                    to="/services"
                     className="px-3 py-2 text-2xl font-medium text-white rounded-md hover:bg-blue-600"
                   >
-                    Home
-                  </a>
+                    Services
+                  </Link>
 
-                  <a
-                    href="#"
+                  <Link
+                    to="/team"
                     className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                   >
                     Team
-                  </a>
+                  </Link>
 
-                  <a
-                    href="https://cloudstorage.gotbackup.com"
-                    className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
-                  >
-                    Services
-                  </a>
-
-                  <a
-                    href="#"
+                  <Link
+                    to="/blog"
                     className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                   >
                     Blog
-                  </a>
+                  </Link>
 
-                  <a
-                    href="#"
+                  <Link
+                    to="/testimonials"
                     className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                   >
                     Testimonials
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -113,35 +107,28 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="#"
+                  href="/services"
                   className="block px-3 py-2 text-base font-medium text-white rounded-md hover:bg-blue-600"
                 >
-                  Home
+                  Services
                 </a>
 
                 <a
-                  href="#"
+                  href="/team"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                 >
                   Team
                 </a>
 
                 <a
-                  href="#"
-                  className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
-                >
-                  Services
-                </a>
-
-                <a
-                  href="#"
+                  href="/blog"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                 >
                   Blog
                 </a>
 
                 <a
-                  href="#"
+                  href="/testimonials"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-900 hover:text-white"
                 >
                   Testimonials
@@ -168,4 +155,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navbar;
