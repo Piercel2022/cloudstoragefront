@@ -1,0 +1,68 @@
+/* Testimonial Slider CSS */
+.testimonial-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  .testimonial-image {
+    width: 200px; /* Increase the width as needed */
+    height: 200px; /* Increase the height as needed */
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .testimonial.active {
+    display: block;
+  }
+  
+  .testimonial-message {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-info {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+  }
+  
+  .testimonial-designation {
+    margin-top: 5px;
+  }
+  
+  /* Slider Animation */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
