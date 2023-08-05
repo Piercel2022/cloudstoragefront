@@ -3,10 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Team from './components/Team';
 import Services from './components/Services';
 import Blog from './components/Blog';
-import Testimonials from './components/Testimonials';
+import Slideshow from './components/Slideshow';
 import HeroSection from './components/HeroSection';
 import LargeDescription from './components/LargeDescription';
 import Navbar from './components/Navbar';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -18,15 +19,15 @@ const App = () => {
         <Route path="/services" component={<Services />} />
         <Route path="/team" component={<Team />} />
         <Route path="/blog" component={<Blog />} />
-        <Route path="/testimonials" component={<Testimonials />} />
+        <Route path="/Contact" component={<Contact />} />
         {/* Add more routes for other pages if needed */}
       </Routes>
-
+      </BrowserRouter>
 
       <HeroSection />
       <LargeDescription />
-      <Testimonials />
-      </BrowserRouter>
+      <Slideshow />
+     
     </div>
   );
 }

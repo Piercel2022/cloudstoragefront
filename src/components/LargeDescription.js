@@ -12,7 +12,7 @@ const LargeDescription = () => {
 
   return (
     <div className="px-4 py-8 mx-auto border max-w-9xl">
-      <p className="text-xl text-center text-gray-800">{descriptionText}</p>
+      <p className="text-xl text-center text-gray-900">{descriptionText}</p>
     </div>
   );
 };
