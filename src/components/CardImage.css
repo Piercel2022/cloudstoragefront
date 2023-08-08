@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-with-description {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .image-with-description img {
+    width: 200px; /* Adjust the image width as needed */
+    height: auto;
+  }
+  
+  .image-with-description p {
+    margin-top: 10px;
+    font-size: 18px;
+  }

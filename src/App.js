@@ -1,34 +1,30 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Team from './components/Team';
-import Services from './components/Services';
-import Blog from './components/Blog';
-import Slideshow from './components/Slideshow';
-import HeroSection from './components/HeroSection';
-import LargeDescription from './components/LargeDescription';
-import Navbar from './components/Navbar';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import Team from './components/pages/Team';
+import Services from './components/pages/Services';
+import Blog from './components/pages/Blog';
+import Layout from './components/Layout';
+import Contact from './components/pages/Contact';
+import Testimonials from './components/pages/Testimonials';
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
+    <>
+      <Router>
+
       {/* Your website content goes here */}
-      <Navbar />
        <Routes>
-        <Route path="/services" component={<Services />} />
-        <Route path="/team" component={<Team />} />
-        <Route path="/blog" component={<Blog />} />
-        <Route path="/Contact" component={<Contact />} />
+       <Route path="/" element={<Layout />}/>
+        <Route path="/services" element={<Services />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/contact" element={<Contact />} />
         {/* Add more routes for other pages if needed */}
       </Routes>
-      </BrowserRouter>
+      </Router>
 
-      <HeroSection />
-      <LargeDescription />
-      <Slideshow />
-     
-    </div>
+    </>
   );
 }
 

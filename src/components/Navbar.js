@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
+import Home from "./Home";
 import { Transition } from "@headlessui/react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-blue-500">
+      <nav className="bg-blue-500 mt-3">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -45,7 +46,7 @@ const Navbar = () => {
                     Testimonials
                   </Link>
                   <Link
-                    to="/cloudstorage.gotbackuptour.com/build-my-downline"
+                    to="/contact"
                     className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                   >
                     Contact
@@ -139,6 +140,12 @@ const Navbar = () => {
                 >
                   Testimonials
                 </Link>
+                <Link
+                    to="/contact"
+                    className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
+                  >
+                    Contact
+                  </Link>
               </div>
             </div>
           )}
@@ -153,7 +160,7 @@ const Navbar = () => {
       <main>
         <div className="py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
           {/* <!-- Replace with your content --> */}
-      
+          <Home />
           {/* <!-- /End replace --> */}
         </div>
       </main>

@@ -11,7 +11,7 @@ const LargeDescription = () => {
  GotBackup - Your data, our priority.`;
 
   return (
-    <div className="px-4 py-8 mx-auto border max-w-9xl">
+    <div className="px-4 mt-5 py-8 mx-auto border-4 border-blue-500/100   ">
       <p className="text-xl text-center text-gray-900">{descriptionText}</p>
     </div>
   );
