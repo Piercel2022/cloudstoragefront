@@ -45,12 +45,7 @@ const Navbar = () => {
                   >
                     Testimonials
                   </Link>
-                  <Link
-                    to="/contact"
-                    className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
-                  >
-                    Contact
-                  </Link>
+                  
                 </div>
               </div>
             </div>
@@ -140,12 +135,7 @@ const Navbar = () => {
                 >
                   Testimonials
                 </Link>
-                <Link
-                    to="/contact"
-                    className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
-                  >
-                    Contact
-                  </Link>
+                
               </div>
             </div>
           )}
