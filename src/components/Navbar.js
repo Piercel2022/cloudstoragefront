@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-blue-500 mt-3">
+      <nav className="mt-3 bg-blue-500">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -30,13 +30,6 @@ const Navbar = () => {
                     className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                   >
                     Team
-                  </Link>
-
-                  <Link
-                    to="/blog"
-                    className="px-3 py-2 text-2xl font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
-                  >
-                    Blog
                   </Link>
 
                   <Link
@@ -120,13 +113,6 @@ const Navbar = () => {
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
                 >
                   Team
-                </Link>
-
-                <Link
-                  to="/blog"
-                  className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-blue-600 hover:text-white"
-                >
-                  Blog
                 </Link>
 
                 <Link
