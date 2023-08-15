@@ -13,10 +13,8 @@ const Services = () => {
         <div className="py-3 text-4xl font-bold">Clients</div>
           <img src={clientImage} alt="Client" className="h-200 w-200" />
           <div className="col-span-2 row-span-1 mt-5 ">
-          <p>Protect all your data. Access your files anytime from anywhere in the world. 
-            Fast, Secure and Easy to use.Despite being a brand new and revolutionary product, 
-            Gotbackup is developed and owned by a multi million-dollar Internet Marketing and software development company called GVO (Global Virtual Opportunities). 
-            GVO has owned and operated their own Datacenter in Schertz Texas since 2007</p>
+          <p>Ensure Your Data's Safety with GotBackup's Advanced Data Backup Solutions</p>
+          <p>Key Points:</p>
           </div>
         </div>
         <div className="col-span-1 row-span-1">
