@@ -14,8 +14,11 @@ const Services = () => {
           <img src={clientImage} alt="Client" className="h-200 w-200" />
           <div className="col-span-2 row-span-1 mt-5 ">
           <p>Ensure Your Data's Safety with GotBackup's Advanced Data Backup Solutions</p>
-          <p>Key Points:</p>
-          </div>
+          
+<h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
+
+</div>
+
         </div>
         <div className="col-span-1 row-span-1">
         <div className="py-3 text-4xl font-bold">Partners</div>
