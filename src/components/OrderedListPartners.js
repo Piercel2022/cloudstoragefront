@@ -7,7 +7,7 @@ const OrderedListPartners = () => {
         { title: "Turnkey Solutions: Our reselling program offers turnkey solutions that are ready for you to promote and sell. You'll have access to a range of cutting-edge data backup products that address the pressing needs of businesses across industries.", id: 3 },
         { title: "Training and Support: We're invested in your success. Receive comprehensive training and ongoing support to ensure you're equipped to effectively communicate the value of our services and close deals confidently.", id: 4 },
         { title: "Flexible Approach: Tailor your reselling approach to your strengths and network. Whether you're an individual entrepreneur, a small business owner, or a seasoned sales professional, our program adapts to your unique style.", id: 5 },
-        { title: "Dedicated Support: Our team of experts is here to assist you every step of the way. Whether you're implementing our solutions or need support during a recovery process, we provide dedicated assistance to ensure your success.", id: 6 },
+        { title: "Networking Opportunities: Join a community of like-minded business partners who are driven to succeed. Connect, collaborate, and share insights with other resellers to expand your knowledge and business reach.", id: 6 },
       ];
 
       const listItems = products.map(product =>
