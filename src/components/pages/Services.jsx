@@ -18,7 +18,8 @@ const Services = () => {
           
 <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
 <OrderedListClient />
-<h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
+<h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Why Choose Us:</h2>
+<p>Choosing GotBackup means choosing peace of mind. Safeguard your business's future with our advanced data backup solutions, backed by expertise, customization, and unwavering support.</p>
 </div>
 
         </div>
