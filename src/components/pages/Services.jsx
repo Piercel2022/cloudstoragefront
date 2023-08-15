@@ -3,6 +3,7 @@ import React from 'react';
 import clientImage from './gotbackup.png';
 import partnerImage from './gotbackup.png';
 import OrderedListClient from '../OrderedListClient';
+import OrderedListPartners from '../OrderedListPartners';
 
 const Services = () => {
   return (
@@ -29,6 +30,7 @@ const Services = () => {
           <div className="col-span-2 row-span-1 mt-5">
           <p>Unlock Profitable Opportunities with GotBackup's Reselling Partnership</p>
           <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
+          <OrderedListPartners />
           </div>
         </div>
 
