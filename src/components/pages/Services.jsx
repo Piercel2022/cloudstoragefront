@@ -2,6 +2,7 @@
 import React from 'react';
 import clientImage from './gotbackup.png';
 import partnerImage from './gotbackup.png';
+import OrderedListClient from '../OrderedListClient';
 
 const Services = () => {
   return (
@@ -16,7 +17,7 @@ const Services = () => {
           <p>Ensure Your Data's Safety with GotBackup's Advanced Data Backup Solutions</p>
           
 <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
-
+<OrderedListClient />
 </div>
 
         </div>

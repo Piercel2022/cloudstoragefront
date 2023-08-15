@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Home from "./Home";
 import { Transition } from "@headlessui/react";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
