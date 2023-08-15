@@ -22,12 +22,13 @@ const Services = () => {
 <p>Choosing GotBackup means choosing peace of mind. Safeguard your business's future with our advanced data backup solutions, backed by expertise, customization, and unwavering support.</p>
 </div>
 
-        </div>
+  </div>
         <div className="col-span-1 row-span-1">
         <div className="py-3 text-4xl font-bold">Partners</div>
           <img src={partnerImage} alt="Partner" className="h-200 w-200" />
           <div className="col-span-2 row-span-1 mt-5">
-          <p>Description for Partners Images</p>
+          <p>Unlock Profitable Opportunities with GotBackup's Reselling Partnership</p>
+          <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
           </div>
         </div>
 
