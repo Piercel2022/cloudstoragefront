@@ -9,9 +9,15 @@ const OrderedListPartners = () => {
         { title: "Trusted by Professionals: Trusted by businesses of all sizes, GotBackup is the go-to partner for data backup. Our industry expertise and satisfied clients stand as a testament to our commitment to data security.", id: 5 },
         { title: "Dedicated Support: Our team of experts is here to assist you every step of the way. Whether you're implementing our solutions or need support during a recovery process, we provide dedicated assistance to ensure your success.", id: 6 },
       ];
+
+      const listItems = products.map(product =>
+        <li key={product.id}>
+          {product.title}
+        </li>
+      );
   return (
     <div>
-      
+      <ul>{listItems}</ul>
     </div>
   )
 }
