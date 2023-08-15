@@ -18,6 +18,7 @@ const Services = () => {
           
 <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
 <OrderedListClient />
+<h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
 </div>
 
         </div>
