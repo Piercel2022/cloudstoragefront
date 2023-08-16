@@ -31,6 +31,8 @@ const Services = () => {
           <p>Unlock Profitable Opportunities with GotBackup's Reselling Partnership</p>
           <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Key Points:</h2>
           <OrderedListPartners />
+          <h2 className="mt-5 mb-2 text-lg font-semibold text-gray-900 dark:text-white">Why Choose Us:</h2>
+   <p>GotBackup's reselling partnership empowers you to tap into a lucrative revenue stream while leveraging our expertise and industry recognition. Take your business to new heights by offering essential data backup solutions backed by a trusted brand.</p>
           </div>
         </div>
 
