@@ -20,7 +20,7 @@ const OrderedListClient = () => {
       );
       
       return (
-        <ol>{listItems}</ol>
+        <ol className="font-bold">{listItems}</ol>
       );
 }
 
