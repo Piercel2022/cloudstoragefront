@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div className="container px-4 py-8 mx-auto">
       <h1 className="p-10 text-5xl font-bold text-center text-gray-900">Our Services</h1>
-      <div className="grid grid-cols-2 grid-rows-2 gap-4">
+      <div className="grid grid-cols-2 grid-rows-1 gap-4">
         {/* First Row */}
     <div className="col-span-1 row-span-1">
         <div className="py-3 text-4xl font-bold">Clients</div>
