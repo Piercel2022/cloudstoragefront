@@ -40,11 +40,6 @@ const Services = () => {
         
       </div>
 
-      {/* Features and Benefits Section */}
-      <div className="my-8">
-        {/* Add your features and benefits content here */}
-        
-      </div>
     </div>
   );
 };
