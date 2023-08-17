@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import useFetchState from "../hooks/useFetchState";
 
+import useFetchState from "../../hooks/useFetchState";
 import { makeStyles } from "@material-ui/core/styles";
 import { Box, Typography } from "@material-ui/core";
 
