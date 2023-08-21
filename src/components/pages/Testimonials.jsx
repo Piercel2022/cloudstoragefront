@@ -45,7 +45,7 @@ function Testimonials({ apiUrl }) {
       id: 2,
       by: "Chyka",
       testimony:
-        "GotBackup is the ultimate cloud for small business owners like me.",
+        "GotBackup is the ultimate cloud storage for small business owners like me.",
     },
     {
       id: 3,
