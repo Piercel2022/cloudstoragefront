@@ -43,7 +43,7 @@ function Testimonials({ apiUrl }) {
     },
     {
       id: 2,
-      by: "Chika",
+      by: "Chyka",
       testimony:
         "agency is the ultimate time saver for small business owners like me.",
     },
