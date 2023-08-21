@@ -49,7 +49,7 @@ function Testimonials({ apiUrl }) {
     },
     {
       id: 3,
-      by: "Jarles",
+      by: "Charles",
       testimony:
         "I would recommend weekend for anyone trying to get the word out about their business. It has saved me so much time!",
     },
