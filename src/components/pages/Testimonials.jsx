@@ -39,7 +39,7 @@ function Testimonials({ apiUrl }) {
       id: 1,
       by: "Raymond",
       testimony:
-        "I love ! This is an amazing service and it has saved me and my small business so much time.",
+        "I love G! This is an amazing service and it has saved me and my small business so much time.",
     },
     {
       id: 2,
