@@ -8,11 +8,11 @@ import { Box, Typography } from "@material-ui/core";
 const useStyles = makeStyles({
   testimonial_card: {
     width: 247,
-    height: 150,
+    height: 250,
     background: "#fff",
     color: "#000",
     fontSize: 30,
-    margin: "0 5px",
+    margin: "5px 15px",
     padding: 20,
     textAlign: "left",
   },
