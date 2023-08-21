@@ -45,7 +45,7 @@ function Testimonials({ apiUrl }) {
       id: 2,
       by: "Chyka",
       testimony:
-        "GotBackup is the ultimate cloud storage service for small business owners like me. I recommend",
+        "GotBackup is the ultimate cloud storage service for small business owners like me. I recommend it",
     },
     {
       id: 3,
