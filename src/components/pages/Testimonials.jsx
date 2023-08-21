@@ -45,7 +45,7 @@ function Testimonials({ apiUrl }) {
       id: 2,
       by: "Chyka",
       testimony:
-        "agency is the ultimate time saver for small business owners like me.",
+        "GotBackup is the ultimate time saver for small business owners like me.",
     },
     {
       id: 3,
